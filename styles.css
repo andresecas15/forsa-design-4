@@ -89,7 +89,7 @@ h1,h2,h3,h4{font-family:var(--font-primary);font-weight:700;color:var(--gray-700
 
 .hero-logo-showcase{position:relative;display:flex;align-items:center;justify-content:center;margin:0 auto 30px}
 .logo-glow-ring{display:none}
-.hero-logo-img{width:auto;height:110px;object-fit:contain;filter:brightness(0) invert(1) drop-shadow(0 2px 16px rgba(0,157,217,0.5));position:relative;z-index:2}
+.hero-logo-img{width:auto;height:110px;object-fit:contain;filter:brightness(0) saturate(100%) invert(77%) sepia(52%) saturate(509%) hue-rotate(169deg) brightness(101%) drop-shadow(0 4px 24px rgba(91,196,241,0.5));position:relative;z-index:2}
 
 /* Hero Title */
 .hero-title{font-size:clamp(1.8rem,4vw,3.2rem);font-weight:800;color:#ffffff;line-height:1.15;margin-bottom:16px}
